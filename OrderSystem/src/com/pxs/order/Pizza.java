@@ -28,7 +28,7 @@ public class Pizza {
 	
 	//展示pizza信息
 	public String showPizza() {
-		return "披萨的名字是: "+ name +",披萨的大小是: "+ size +",披萨的价格是: "+price;
+		return "披萨的名字是: "+ name +"\n披萨的大小是: "+ size +"寸\n披萨的价格是: "+price+" 元";
 	}
 	
 	//构造器

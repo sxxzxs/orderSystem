@@ -21,6 +21,10 @@ public class BaconPizza extends Pizza {
 		super(name, size, price);
 		this.weight = weight;
 	}
-	
+	//重写父类showPizza
+	@Override
+	public String showPizza() {	
+		return super.showPizza()+"\n培根的克数是: "+weight+" 克";
+	}
 
 }
